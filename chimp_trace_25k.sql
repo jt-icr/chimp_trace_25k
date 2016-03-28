@@ -1,4 +1,4 @@
---Various sql queries on the chimp_trace_25k db
+--Various sql queries on the chimp_trace_25k.sqlite db
 --Written by JP Tomkins, March, 2016
 --Email: jtomkins@icr.org
 --Institute for Creation Research
