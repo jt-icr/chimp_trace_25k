@@ -13,7 +13,6 @@ import re
 
 
 __author__ = "Jeffrey P Tomkins, PhD"
-__contributor__ = ""
 __copyright__ = "Copyright 2016, Institute for Creation Research"
 __email__ = "jtomkins@icr.org"
 
