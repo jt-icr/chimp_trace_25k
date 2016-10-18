@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.5
 
 '''Summarizes the results of a blastn output and can be run
-as a batch script to analyze each of an entire set of blastn
+as a batch script to analyze eaach of an entire set of blastn
 output files in csv format. Also generates a summary of the
 entire set of blastn output files.'''
 
@@ -13,19 +13,13 @@ from matplotlib import pyplot as plt
 
 
 __author__ = "Jeffrey P Tomkins, PhD"
-__contributor__ = ""
 __copyright__ = "Copyright 2016, Institute for Creation Research"
-__credits__ = []
-__license__ = "GPL"
-__version__ = "0.0.1"
-__maintainer__ = "Jeffrey P Tomkins"
 __email__ = "jtomkins@icr.org"
-__status__ = "Production"
 
 
 date = strftime('%m_%d_%Y')
 
-# Set final csv summary outfile name with date stamp
+# Set final csv summary outfile name
 csv_outfilename = 'blastn_summary_' + date + '.dat'
 
 
@@ -101,7 +95,7 @@ def get_blast_data(csv_filename, fasta_filename):
     ave_qseqall = total_seq_len/num_qseqs
     ave_hitfreq = num_hits/num_qseqs * 100
 
-    # Send a human readable report to standard out
+    # Make a human readable report
     print("Ave aln ident   : ", round(ave_aln_ident, 2))
     print("Ave qseq ident  : ", round(ave_qseq_ident, 2))
     print("Ave aln len     : ", round(ave_aln_len, 2))
@@ -225,4 +219,5 @@ def blastn_batch_proc():
 
 
 if __name__ == '__main__':
+    
     blastn_batch_proc()
