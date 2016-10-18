@@ -2,15 +2,14 @@
 """parse_multi_fasta.py
 	Creator :     Jeff Tomkins <jtomkins@icr.org>
 	Create date :  April 27, 2015 
-	Last modified: 
-	Description :  Parses a multi-fasta file into 25k subfiles
+	Description :  Selects 25000 random seqs and parses into new fasta file.
 	Modifications : JP Tomkins, improved filename var usage, 11/16/2015
 """
 
 from __future__ import print_function
 import sys
-from Bio import SeqIO
 import random
+from Bio import SeqIO
 
 
 args = sys.argv[1:]
