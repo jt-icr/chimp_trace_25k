@@ -9,6 +9,7 @@
 from __future__ import print_function
 import sys
 import random
+
 from Bio import SeqIO
 
 
