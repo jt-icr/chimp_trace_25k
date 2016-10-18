@@ -15,12 +15,7 @@ import re
 __author__ = "Jeffrey P Tomkins, PhD"
 __contributor__ = ""
 __copyright__ = "Copyright 2016, Institute for Creation Research"
-__credits__ = []
-__license__ = "GPL"
-__version__ = "0.0.1"
-__maintainer__ = "Jeffrey P Tomkins"
 __email__ = "jtomkins@icr.org"
-__status__ = "Production"
 
 
 # Put all the DNA seq xml files in a list
